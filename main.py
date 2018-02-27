@@ -2,13 +2,13 @@
 
 import sys
 from PyQt5.QtWidgets import QApplication
-from MainMenu import *
+from MainScreen import *
 
 def main():
     #create the application
     application = QApplication(sys.argv)
 
-    main = MainMenu()
+    main = MainScreen()
     main.create()
 
     #wait for application to exit

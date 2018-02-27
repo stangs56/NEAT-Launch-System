@@ -1,7 +1,7 @@
 from PyQt5.QtWidgets import *
 from PyQt5.QtCore import pyqtSlot
 
-class MainMenu(QWidget):
+class MainScreen(QWidget):
 
     def __init__(self):
 
